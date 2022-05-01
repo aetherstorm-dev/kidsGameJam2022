@@ -12,18 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875f10dd1ee7db149a5eab01d0ede9db, type: 3}
   m_Name: DogAfter
   m_EditorClassIdentifier: 
-  text: Woof!
-  empty: 0
+  text: 
+  empty: 1
   conditions:
   - key: dog_interactions
-    comparison: 1
+    comparison: 4
     value: 1
   beforeActions:
   - action: 0
     key: dog_heart
     value: 
-  - action: 2
-    key: score
-    value: 1
   afterActions: []
   nodes: []
