@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour, DialogueListener
 {
     public VariableStore store;
     public DialogueSystem dialogueSystem;
+    public PlayerState playerState;
     public TextMeshProUGUI textUI;
     private CanvasGroup _canvasGroup;
     private DialogueNode currentDialogue = null;
@@ -16,6 +17,9 @@ public class DialogueUI : MonoBehaviour, DialogueListener
     {
         _canvasGroup.alpha = 0f;
         dialogueSystem.inDialogue = false;
+
+        if (playerState != null)
+            playerState.canMove = true;
     }
 
     public void StartDialogue(DialogueNode node)
@@ -24,6 +28,8 @@ public class DialogueUI : MonoBehaviour, DialogueListener
         currentDialogue = node;
 
         dialogueSystem.inDialogue = true;
+        if (playerState != null)
+            playerState.canMove = false;
 
         ContinueDialogue();
     }

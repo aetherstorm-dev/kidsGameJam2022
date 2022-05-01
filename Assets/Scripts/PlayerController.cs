@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Animator), typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    public PlayerState state;
     public float speed = 10f;
 
     private Controls controls;
@@ -23,18 +24,26 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         _movement = context.ReadValue<Vector2>();
+        if (_movement.magnitude > 0)
+            state.facing = _movement.normalized;
     }
 
     private void FixedUpdate()
     {
-        _rigidBody.velocity = _movement.normalized * speed * Time.deltaTime;
+        if (state.canMove)
+            _rigidBody.velocity = _movement.normalized * speed * Time.deltaTime;
+        else
+            _rigidBody.velocity = Vector2.zero;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _animator.SetFloat("Horizontal", _movement.x);
-        _animator.SetFloat("Vertical", _movement.y);
-        _animator.SetFloat("Speed", _movement.magnitude);
+        if (state.canMove)
+        {
+            _animator.SetFloat("Horizontal", _movement.x);
+            _animator.SetFloat("Vertical", _movement.y);
+            _animator.SetFloat("Speed", _movement.magnitude);
+        }
     }
 }

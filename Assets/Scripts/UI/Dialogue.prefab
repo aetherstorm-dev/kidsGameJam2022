@@ -105,6 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   store: {fileID: 11400000, guid: b4f7b1c3f7811f0469cbd77e14af01e9, type: 2}
   dialogueSystem: {fileID: 11400000, guid: d9de852443b14134b947ab2dd31030e8, type: 2}
+  playerState: {fileID: 11400000, guid: b24e2836f6d68c447bfee1cfd177d15e, type: 2}
   textUI: {fileID: 7007476295564486967}
 --- !u!1 &712500665452160373
 GameObject:
