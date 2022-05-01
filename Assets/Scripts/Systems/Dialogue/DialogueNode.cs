@@ -2,11 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu]
 public class DialogueNode : ScriptableObject
 {
-    public string text;
+    public LocalizedString text;
     public bool empty;
 
     public DialogueCondition[] conditions;

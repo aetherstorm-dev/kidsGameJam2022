@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875f10dd1ee7db149a5eab01d0ede9db, type: 3}
   m_Name: DogFirst
   m_EditorClassIdentifier: 
-  text: Woof!
+  text:
+    m_TableReference:
+      m_TableCollectionName: GUID:5e7617fb928537841b662d0731b8d60f
+    m_TableEntryReference:
+      m_KeyId: 45808316416
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   empty: 0
   conditions:
   - key: dog_interactions
@@ -27,3 +35,6 @@ MonoBehaviour:
     value: 1
   afterActions: []
   nodes: []
+  references:
+    version: 2
+    RefIds: []
