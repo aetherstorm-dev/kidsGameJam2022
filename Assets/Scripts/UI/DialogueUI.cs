@@ -106,7 +106,7 @@ public class DialogueUI : MonoBehaviour, DialogueListener
                 (choice, _) = WalkNode(choice); // risky recursion; walks straight through empty text
 
             if (choice != null)
-                return (choice, choice.text);
+                return (choice, choice.text.GetLocalizedString());
         }
 
         return (null, null);
