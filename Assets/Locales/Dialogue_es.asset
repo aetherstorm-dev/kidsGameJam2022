@@ -22,6 +22,15 @@ MonoBehaviour:
     m_Localized: "\xA1Guau!"
     m_Metadata:
       m_Items: []
+  - m_Id: 7959658852352
+    m_Localized: "Este parque no es lo que era cuando yo era ni\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10276860817408
+    m_Localized: "Era m\xE1s peque\xF1o, pero estaba lleno de \xE1rboles. Ahora es
+      m\xE1s grande, pero los \xE1rboles se han ido y nadie quiere plantar m\xE1s."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

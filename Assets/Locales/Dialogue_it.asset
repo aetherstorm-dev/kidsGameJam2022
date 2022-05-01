@@ -22,6 +22,15 @@ MonoBehaviour:
     m_Localized: Bau!
     m_Metadata:
       m_Items: []
+  - m_Id: 7959658852352
+    m_Localized: "Questo parco non \xE8 pi\xF9 quello che era quando ero bambino."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10276860817408
+    m_Localized: "Un tempo era pi\xF9 piccolo, ma era pieno di alberi. Adesso \xE8
+      pi\xF9 grande, ma i vecchi alberi sono scomparsi e nessuno vuole piantarne."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

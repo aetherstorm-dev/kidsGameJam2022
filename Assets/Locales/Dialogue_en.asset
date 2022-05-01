@@ -22,6 +22,32 @@ MonoBehaviour:
     m_Localized: Woof!
     m_Metadata:
       m_Items: []
+  - m_Id: 7959658852352
+    m_Localized: 'Boy, this park isn''t what it used to be when I was a kid. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10276860817408
+    m_Localized: It used to be smaller, but it was full of trees. It's larger now,
+      but the old trees are gone, and no one wants to plant any.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13301985800192
+    m_Localized: I just tried to plant more, but my back hurts too much. I wish that
+      this park could have trees again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13688704823296
+    m_Localized: ...hey, you're young! Could you plant the trees for me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14127735205888
+    m_Localized: It's easy! Just go to a sapling and press E. Thanks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14642359529472
+    m_Localized: I appreciate you sticking around, but... Don't you want trees?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -20,6 +20,7 @@ public class Sapling : MonoBehaviour
         if (sprouted) 
             return;
         store.AddInt("trees_planted", 1);
+        store.AddInt("score", 1);
         _animator.SetTrigger("sprout");
 
         sprouted = true;
