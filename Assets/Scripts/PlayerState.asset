@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36c58381038228045b60a4868026919f, type: 3}
   m_Name: PlayerState
   m_EditorClassIdentifier: 
-  facing: {x: 0, y: 0}
-  canMove: 0
+  initialFacing: {x: 0, y: 0}
+  initialCanMove: 1
