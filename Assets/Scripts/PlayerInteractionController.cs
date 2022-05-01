@@ -9,6 +9,8 @@ public class PlayerInteractionController : MonoBehaviour
 
     public void OnInteractButton(InputAction.CallbackContext context)
     {
+        if (context.phase != InputActionPhase.Performed) return;
+
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radius);
         foreach (Collider2D collider in colliders)
         {

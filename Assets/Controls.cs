@@ -42,7 +42,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""id"": ""016883ad-9526-4ff8-9bcf-5574d3f269c1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -172,7 +172,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""25b67f45-08f4-4746-85f9-2b60eb6be5f2"",
                     ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=1)"",
                     ""processors"": """",
                     ""groups"": ""Mouse+Keyboard"",
                     ""action"": ""Interact"",
