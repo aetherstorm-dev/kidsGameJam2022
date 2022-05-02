@@ -10,27 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 875f10dd1ee7db149a5eab01d0ede9db, type: 3}
-  m_Name: AlexRoot
+  m_Name: AlexDone
   m_EditorClassIdentifier: 
   text:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:5e7617fb928537841b662d0731b8d60f
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 37317404487680
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  empty: 1
-  conditions: []
+  empty: 0
+  conditions:
+  - key: trees_planted
+    comparison: 4
+    value: 5
+  - key: alex_done
+    comparison: 0
+    value: 1
   beforeActions: []
-  afterActions: []
-  nodes:
-  - {fileID: 11400000, guid: 52c3cd6fa4169d9498b3385c33bbd18c, type: 2}
-  - {fileID: 11400000, guid: 312151de4c5322248937fd500349e8f2, type: 2}
-  - {fileID: 11400000, guid: 8d1f1abe5972629458322d8a2997c8eb, type: 2}
-  - {fileID: 11400000, guid: 7b7bddac39b419a41a46a518fe41e201, type: 2}
-  - {fileID: 11400000, guid: a5fed24b9a6b9c543a289c63cf64b6f8, type: 2}
+  afterActions:
+  - action: 1
+    key: alex_done
+    value: 1
+  nodes: []
   references:
     version: 2
     RefIds: []

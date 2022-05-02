@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Animator), typeof(InteractionReceiver))]
-public class Sapling : MonoBehaviour
+[RequireComponent(typeof(Animator))]
+public class Sapling : MonoBehaviour, IInteractionReceiver
 {
     public VariableStore store;
     public Animator _animator;
@@ -15,7 +15,7 @@ public class Sapling : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    public void Sprout()
+    public void Interact()
     {
         if (sprouted) 
             return;
@@ -24,5 +24,10 @@ public class Sapling : MonoBehaviour
         _animator.SetTrigger("sprout");
 
         sprouted = true;
+    }
+
+    public bool ShouldPassThrough()
+    {
+        return !sprouted;
     }
 }

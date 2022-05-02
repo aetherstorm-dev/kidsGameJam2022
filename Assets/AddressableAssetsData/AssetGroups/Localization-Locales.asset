@@ -32,6 +32,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
+  - m_GUID: 8fa8dbcd71776fe4da8c297a60b13641
+    m_Address: Bulgarian (bg)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 325e584e478a2614e8f3738a25ddf955, type: 2}
   m_SchemaSet:

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2967030115357196661}
   - component: {fileID: 2967030115357196660}
   - component: {fileID: 2251549179613898998}
-  - component: {fileID: 7754618204539104198}
   m_Layer: 0
   m_Name: Sapling
   m_TagString: Untagged
@@ -148,30 +147,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   store: {fileID: 11400000, guid: b4f7b1c3f7811f0469cbd77e14af01e9, type: 2}
   _animator: {fileID: 2967030115357196661}
---- !u!114 &7754618204539104198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2967030115357196659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3960460d62ec7846a8c47b7c4c3768d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onTrigger:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2251549179613898998}
-        m_TargetAssemblyTypeName: Sapling, Assembly-CSharp
-        m_MethodName: Sprout
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2

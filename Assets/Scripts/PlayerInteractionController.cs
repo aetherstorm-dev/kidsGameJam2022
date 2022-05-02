@@ -14,11 +14,13 @@ public class PlayerInteractionController : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radius);
         foreach (Collider2D collider in colliders)
         {
-            InteractionReceiver receiver = collider.GetComponent<InteractionReceiver>();
+            IInteractionReceiver receiver = collider.GetComponent<IInteractionReceiver>();
             if (receiver != null)
             {
-                receiver.Trigger();
-                break;
+                receiver.Interact();
+
+                if (!receiver.ShouldPassThrough())
+                    break;
             }
         }
     }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &487147748283332159
+--- !u!1 &5506685895676510203
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 487147748283332162}
-  - component: {fileID: 487147748283332161}
-  - component: {fileID: 487147748283332166}
-  - component: {fileID: 487147748283332163}
-  - component: {fileID: 487147748283332164}
-  - component: {fileID: 487147748283332167}
+  - component: {fileID: 8185234051915868998}
+  - component: {fileID: 5978511025666458072}
+  - component: {fileID: 9050831450582154734}
+  - component: {fileID: 109338514162856197}
   m_Layer: 0
-  m_Name: Dog
+  m_Name: Garbage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &487147748283332162
+--- !u!4 &8185234051915868998
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
+  m_GameObject: {fileID: 5506685895676510203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: -4.749575, y: 7.3033056, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &487147748283332161
+--- !u!212 &5978511025666458072
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
+  m_GameObject: {fileID: 5506685895676510203}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2102948417, guid: f4cf844b32053da48bf7f8a32f1281e2, type: 3}
+  m_Sprite: {fileID: 1539156189, guid: 1ab8f893b9b0be846bad904ac0cffeb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,33 +86,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &487147748283332166
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf99bcb5a192a624ab948ade4b1f3a31, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &487147748283332163
+--- !u!61 &9050831450582154734
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
+  m_GameObject: {fileID: 5506685895676510203}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -134,32 +112,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &487147748283332164
+--- !u!114 &109338514162856197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
+  m_GameObject: {fileID: 5506685895676510203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce9ab205f6d7cf54c9281ba8a9ea83e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 213f57b01bd2f2c419f5618218b741bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 11400000, guid: d9de852443b14134b947ab2dd31030e8, type: 2}
-  dialogue: {fileID: 11400000, guid: 4f789558d2fd95c438797d98d66717c1, type: 2}
---- !u!114 &487147748283332167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487147748283332159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a76a51fff7b2c814ea3287fcb08912e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 11400000, guid: d9de852443b14134b947ab2dd31030e8, type: 2}
-  listenAction: dog_heart
-  triggerName: heart
+  store: {fileID: 11400000, guid: b4f7b1c3f7811f0469cbd77e14af01e9, type: 2}

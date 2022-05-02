@@ -48,6 +48,22 @@ MonoBehaviour:
     m_Localized: I appreciate you sticking around, but... Don't you want trees?
     m_Metadata:
       m_Items: []
+  - m_Id: 36904877912064
+    m_Localized: Wow, that already looks so much better! There's a little left to
+      do, though.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37317404487680
+    m_Localized: Oh, my... I remember when the park used to look like this. I'm glad
+      you'll be able to see it when you're older. Thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38167237586944
+    m_Localized: Thanks again for planting those trees! Can you imagine what this
+      park will look like in ten years? I'm not sure they'll grow too tall with the
+      river being so dirty, though.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
