@@ -64,6 +64,41 @@ MonoBehaviour:
       river being so dirty, though.
     m_Metadata:
       m_Items: []
+  - m_Id: 83019555893248
+    m_Localized: I wanna play outside with my neighbor, but my mom says I can't because
+      it's too dirty outside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83478576328704
+    m_Localized: '*sigh*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83696478810112
+    m_Localized: I think I'm gonna go say hi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83979174899712
+    m_Localized: Wow, thanks! The streets are so clean! My mom will love this!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84688112939008
+    m_Localized: I haven't been feeling so good. I think it's because the water's
+      been so gross.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85003491045376
+    m_Localized: I found a piece of plastic floating in my cup yesterday! Gross!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85362527662080
+    m_Localized: I'm feeling much better now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85635329388544
+    m_Localized: The water's starting to clear up! It's a miracle! Oh, wait, did
+      you do that? Thanks!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
