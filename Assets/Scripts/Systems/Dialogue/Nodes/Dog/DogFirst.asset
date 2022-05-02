@@ -30,9 +30,6 @@ MonoBehaviour:
   - action: 0
     key: dog_heart
     value: 
-  - action: 2
-    key: score
-    value: 1
   afterActions: []
   nodes: []
   references:
