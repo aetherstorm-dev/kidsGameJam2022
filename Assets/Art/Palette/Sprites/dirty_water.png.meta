@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c27865bf16c0e404b9b55ec86d47886b
+guid: 2f5eef9c0c6b4744ba4f25b203b44fd7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_0
+      name: dirty_water_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92641a1c2c40a74287a0fab77aeb3d9
-      internalID: 1901281728
+      spriteID: 699a0ba8874bf6147a5f65b511d37aa7
+      internalID: 1127462116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_1
+      name: dirty_water_1
       rect:
         serializedVersion: 2
         x: 64
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d6ffea4a52ba49aab01398ad1fc30
-      internalID: -882685670
+      spriteID: aca0d8e9c31cd664bad9d4ef9fb06d72
+      internalID: 1445498384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_2
+      name: dirty_water_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7699a7decd75b3b408920a466cb5b5c2
-      internalID: 1319712185
+      spriteID: d2975aadba828ef4ebb913b5d5d2e17d
+      internalID: 857040425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_3
+      name: dirty_water_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 719bfd4052d4af14c92aea36173748d1
-      internalID: 588941779
+      spriteID: f31b6b5a05882bc4b8ae945c8376b2da
+      internalID: -560760284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_4
+      name: dirty_water_4
       rect:
         serializedVersion: 2
         x: 256
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107638bfd7fdb3041b18a30350b23b7a
-      internalID: -842936056
+      spriteID: e64f06d40f728284cb8ddb7179682793
+      internalID: -1644308483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_5
+      name: dirty_water_5
       rect:
         serializedVersion: 2
         x: 320
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efd81daa6591e114aa7bbe3ae402e83b
-      internalID: 1922290652
+      spriteID: e525bd12362b55f4fa3f392bb8dd5cc9
+      internalID: 725913213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_6
+      name: dirty_water_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bd1cbf89f4fd2945ae47e6339943572
-      internalID: -1686236230
+      spriteID: d114c8c307a6bfe4cab54875910a7f91
+      internalID: 1001128092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_7
+      name: dirty_water_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41d439c5fa10824f974a974cce39474
-      internalID: -2105430885
+      spriteID: 27ef4dc9623236a4aa1be9c6f0467031
+      internalID: -1141928879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_8
+      name: dirty_water_8
       rect:
         serializedVersion: 2
         x: 512
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb458638e626624aa807d47a8c1d25b
-      internalID: 792051573
+      spriteID: d74095e4d2e21e747a5d257f8e668546
+      internalID: -1450775409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_9
+      name: dirty_water_9
       rect:
         serializedVersion: 2
         x: 0
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f6af9df94c8081448386deb60ec6661
-      internalID: 181355420
+      spriteID: 01d2c273d42745b46bb0ba0936965dab
+      internalID: -474921120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_10
+      name: dirty_water_10
       rect:
         serializedVersion: 2
         x: 64
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f43c824a5a7acf419d2b2246b4bad8f
-      internalID: 1111373072
+      spriteID: dc2b847d17c199240ad319d9816dcf3a
+      internalID: 2060494368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_11
+      name: dirty_water_11
       rect:
         serializedVersion: 2
         x: 128
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad452ef9cc04504ba56c91669ba566f
-      internalID: 606858321
+      spriteID: 2c1cf353658c49d498af37b7f44a8cf6
+      internalID: -1264580770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_12
+      name: dirty_water_12
       rect:
         serializedVersion: 2
         x: 192
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fa2d9a5a7abd824b8553c7f3e08c773
-      internalID: 1524834355
+      spriteID: dc6e87c735e7ff746acd114d2186d97b
+      internalID: -1661290026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_13
+      name: dirty_water_13
       rect:
         serializedVersion: 2
         x: 256
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a417d9c467bc7074a965ecbd39667c3d
-      internalID: -1510434507
+      spriteID: 67362bd0c219f47458c674aa292505a1
+      internalID: -1796930703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_14
+      name: dirty_water_14
       rect:
         serializedVersion: 2
         x: 320
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb20c443b058e36418d48485557b2484
-      internalID: -673522828
+      spriteID: ebe239b295e46db43b0e2d4e50efdb82
+      internalID: -775494459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_15
+      name: dirty_water_15
       rect:
         serializedVersion: 2
         x: 384
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd1875c638fd4b4286b1599f421845f
-      internalID: 599311460
+      spriteID: 67809544e809fe149b37349691c5bf80
+      internalID: 2490860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_16
+      name: dirty_water_16
       rect:
         serializedVersion: 2
         x: 448
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9a9e02c20ef9874cad8f09640df6d90
-      internalID: 404456200
+      spriteID: b68d3777b9407084c8a3be8d860a1ec8
+      internalID: -594814176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_17
+      name: dirty_water_17
       rect:
         serializedVersion: 2
         x: 512
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2617ea12f6a381941b97bebbcc67459a
-      internalID: 1779358444
+      spriteID: 16cf18a7cfd09f548a02618430cb53bb
+      internalID: 1751335026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_18
+      name: dirty_water_18
       rect:
         serializedVersion: 2
         x: 0
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b655e7274e77394aaf7503953d5b538
-      internalID: 1532670987
+      spriteID: 697e141e9b54abd41aa49458ce180436
+      internalID: 1307276286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_19
+      name: dirty_water_19
       rect:
         serializedVersion: 2
         x: 64
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77011f0ccc322a042ae8d3da823055ff
-      internalID: -704932147
+      spriteID: 24dab653490abb44f8324f8c31d1c554
+      internalID: 820720182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_20
+      name: dirty_water_20
       rect:
         serializedVersion: 2
         x: 128
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd6aeee8af255a74580de81934dca12c
-      internalID: -1763289709
+      spriteID: 5df05063634a9fb4db96068e3f31fed4
+      internalID: -939568707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_21
+      name: dirty_water_21
       rect:
         serializedVersion: 2
         x: 192
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a7ef3c609ca4a49aeba174251df797
-      internalID: 1358727697
+      spriteID: 766c7f8482bb96c49ba8f500a80cd443
+      internalID: -382154884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_22
+      name: dirty_water_22
       rect:
         serializedVersion: 2
         x: 256
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b2b784c04b2974d9bf49f13df1812f
-      internalID: 904956124
+      spriteID: c99f35fe91735934d87d6e8871c34b57
+      internalID: 347508571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_23
+      name: dirty_water_23
       rect:
         serializedVersion: 2
         x: 320
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9b90424256a649429e1d5b16b0b6b02
-      internalID: -282917329
+      spriteID: 78e85e36e7410d545bfb1efed60ec1d9
+      internalID: 2124311465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_24
+      name: dirty_water_24
       rect:
         serializedVersion: 2
         x: 384
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e8c55d8f5bbd5428f786db0d5c2cb9
-      internalID: 68747569
+      spriteID: 5e7dc62a4b2a03c40b7f6869464aa776
+      internalID: -714548791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_25
+      name: dirty_water_25
       rect:
         serializedVersion: 2
         x: 448
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d4f7aca5391c0846aa408c91ec75e4d
-      internalID: -626444543
+      spriteID: c5c62ec8f6dbdb44a8a7cea5dc7b001e
+      internalID: 2041782596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_26
+      name: dirty_water_26
       rect:
         serializedVersion: 2
         x: 512
@@ -664,8 +664,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc137333c58cb24bb6222dd6032e3a3
-      internalID: -1026625994
+      spriteID: 3abe103f0d4ac9440ba3b8c1a77ee8fe
+      internalID: 2050060965
       vertices: []
       indices: 
       edges: []
@@ -681,33 +681,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      water_1: -882685670
-      water_5: 1922290652
-      water_17: 1779358444
-      water_3: 588941779
-      water_15: 599311460
-      water_4: -842936056
-      water_13: -1510434507
-      water_20: -1763289709
-      water_0: 1901281728
-      water_19: -704932147
-      water_6: -1686236230
-      water_16: 404456200
-      water_9: 181355420
-      water_10: 1111373072
-      water_23: -282917329
-      water_11: 606858321
-      water_8: 792051573
-      water_7: -2105430885
-      water_21: 1358727697
-      water_24: 68747569
-      water_25: -626444543
-      water_18: 1532670987
-      water_26: -1026625994
-      water_22: 904956124
-      water_14: -673522828
-      water_2: 1319712185
-      water_12: 1524834355
+      dirty_water_20: -939568707
+      dirty_water_22: 347508571
+      dirty_water_26: 2050060965
+      dirty_water_6: 1001128092
+      dirty_water_16: -594814176
+      dirty_water_0: 1127462116
+      dirty_water_21: -382154884
+      dirty_water_23: 2124311465
+      dirty_water_13: -1796930703
+      dirty_water_11: -1264580770
+      dirty_water_18: 1307276286
+      dirty_water_19: 820720182
+      dirty_water_1: 1445498384
+      dirty_water_12: -1661290026
+      dirty_water_17: 1751335026
+      dirty_water_5: 725913213
+      dirty_water_14: -775494459
+      dirty_water_25: 2041782596
+      dirty_water_10: 2060494368
+      dirty_water_15: 2490860
+      dirty_water_3: -560760284
+      dirty_water_7: -1141928879
+      dirty_water_24: -714548791
+      dirty_water_4: -1644308483
+      dirty_water_2: 857040425
+      dirty_water_9: -474921120
+      dirty_water_8: -1450775409
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
