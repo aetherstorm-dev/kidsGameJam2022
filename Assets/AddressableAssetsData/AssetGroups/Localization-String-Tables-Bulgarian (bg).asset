@@ -16,7 +16,13 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 57ae3f4e9d24d8744859d4a7e2ec996e
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 6974b568962269147b6282ec7bafb070
+    m_Address: Dialogue_bg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bg
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 325e584e478a2614e8f3738a25ddf955, type: 2}
   m_SchemaSet:

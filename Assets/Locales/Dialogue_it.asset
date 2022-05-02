@@ -31,6 +31,38 @@ MonoBehaviour:
       pi\xF9 grande, ma i vecchi alberi sono scomparsi e nessuno vuole piantarne."
     m_Metadata:
       m_Items: []
+  - m_Id: 37317404487680
+    m_Localized: "Oh... Ricordo quando il parco aveva questo aspetto. Sono contento
+      che potrai vederlo quando sarai pi\xF9 grande. Grazie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14642359529472
+    m_Localized: Apprezzo la tua compagnia, ma... Non vuoi gli alberi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38167237586944
+    m_Localized: "Grazie ancora per aver piantato quegli alberi! Riuscite a immaginare
+      come sar\xE0 questo parco tra dieci anni? Non sono sicuro che diventeranno
+      troppo alti con il fiume cos\xEC sporco, per\xF2."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13301985800192
+    m_Localized: "Ho solo provato a piantare di pi\xF9, ma mi fa troppo male la schiena.
+      Vorrei che questo parco potesse avere di nuovo alberi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13688704823296
+    m_Localized: ...aspetta, sei giovane! Potresti piantare gli alberi per me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14127735205888
+    m_Localized: "\xC8 facile! Basta andare da un alberello e premere E. Grazie!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36904877912064
+    m_Localized: "Oh, sembra gi\xE0 molto meglio! C'\xE8 ancora un po' da fare, per\xF2."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
