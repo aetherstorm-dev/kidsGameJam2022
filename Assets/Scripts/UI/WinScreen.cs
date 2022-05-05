@@ -20,7 +20,7 @@ public class WinScreen : MonoBehaviour
     {
         if (!won)
         {
-            if (store.GetInt("alex_done") > 0 && store.GetInt("kid1_done") > 0 && store.GetInt("kid1_done") > 0)
+            if (store.GetInt("alex_done") > 0 && store.GetInt("kid1_done") > 0 && store.GetInt("kid2_done") > 0)
             {
                 won = true;
                 GetComponent<Animator>().SetTrigger("win");
